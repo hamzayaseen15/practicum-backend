@@ -1,0 +1,47 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "prettier", "plugin:node/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-var": "error",
+
+    "camelcase": "off",
+    "class-methods-use-this": "off",
+    "eqeqeq": "off",
+    "func-names": "off",
+    "guard-for-in": "off",
+    "lines-between-class-members": "off",
+    "new-cap": "off",
+    "no-continue": "off",
+    "no-await-in-loop": "off",
+    "no-console": "off",
+    "no-constructor-return": "off",
+    "no-plusplus": "off",
+    "no-process-exit": "off",
+    "no-restricted-syntax": "off",
+    "no-undef": "off",
+    "no-underscore-dangle": "off",
+
+    "global-require": "warn",
+    "import/extensions": "warn",
+    "no-new": "warn",
+    "no-param-reassign": "warn",
+    "no-unused-vars": "warn",
+    "node/no-unsupported-features/es-syntax": "warn",
+    "object-shorthand": "warn",
+    "prefer-const": "warn",
+    "prefer-template": "warn",
+    "prettier/prettier": "warn"
+  }
+}

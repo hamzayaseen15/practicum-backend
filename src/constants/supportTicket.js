@@ -1,0 +1,5 @@
+exports.SUPPORT_TICKET_PRIORITY_NORMAL = 'normal'
+exports.SUPPORT_TICKET_PRIORITY_URGENT = 'urgent'
+
+exports.SUPPORT_TICKET_STATUS_PENDING = 'pending'
+exports.SUPPORT_TICKET_STATUS_RESOLVED = 'resolved'

@@ -1,0 +1,2 @@
+exports.NOTIFICATION_STATUS_READ = 'read'
+exports.NOTIFICATION_STATUS_UNREAD = 'unread'
